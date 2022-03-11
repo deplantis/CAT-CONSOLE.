@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="777.cpp" />
+    <ClCompile Include="CATCATT\catttcattt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CATCATT\catttcattt.h" />
+    <ClInclude Include="dep\curl\include\curl\curl.h" />
+    <ClInclude Include="dep\curl\include\curl\curlver.h" />
+    <ClInclude Include="dep\curl\include\curl\easy.h" />
+    <ClInclude Include="dep\curl\include\curl\mprintf.h" />
+    <ClInclude Include="dep\curl\include\curl\multi.h" />
+    <ClInclude Include="dep\curl\include\curl\options.h" />
+    <ClInclude Include="dep\curl\include\curl\stdcheaders.h" />
+    <ClInclude Include="dep\curl\include\curl\system.h" />
+    <ClInclude Include="dep\curl\include\curl\typecheck-gcc.h" />
+    <ClInclude Include="dep\curl\include\curl\urlapi.h" />
+    <ClInclude Include="dep\json\nlohmann\ordered_map.hpp" />
+    <ClInclude Include="dep\json\nlohmann\adl_serializer.hpp" />
+    <ClInclude Include="dep\json\nlohmann\byte_container_with_subtype.hpp" />
+    <ClInclude Include="dep\json\nlohmann\json.hpp" />
+    <ClInclude Include="dep\json\nlohmann\json_fwd.hpp" />
+    <ClInclude Include="dep\json\nlohmann\thirdparty\hedley\hedley.hpp" />
+    <ClInclude Include="dep\json\nlohmann\thirdparty\hedley\hedley_undef.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\exceptions.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\hash.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\json_pointer.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\json_ref.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\macro_scope.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\macro_unscope.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\string_escape.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\value_t.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\output\serializer.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\output\binary_writer.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\output\output_adapters.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\meta\cpp_future.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\meta\detected.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\meta\identity_tag.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\meta\is_sax.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\meta\type_traits.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\meta\void_t.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\meta\call_std\begin.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\meta\call_std\end.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\iterators\primitive_iterator.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\iterators\internal_iterator.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\iterators\iter_impl.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\iterators\iteration_proxy.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\iterators\iterator_traits.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\iterators\json_reverse_iterator.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\input\binary_reader.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\input\input_adapters.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\input\json_sax.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\input\lexer.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\input\parser.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\input\position_t.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\conversions\from_json.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\conversions\to_chars.hpp" />
+    <ClInclude Include="dep\json\nlohmann\detail\conversions\to_json.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dep\curl\lib\libcurl_a.lib" />
+  </ItemGroup>
+</Project>
