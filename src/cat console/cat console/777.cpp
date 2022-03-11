@@ -1,6 +1,5 @@
 #include "catcatt\catttcattt.h"
 
-#include <iostream>
 
 #define macro true
 #define macromacro false
