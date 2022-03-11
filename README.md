@@ -10,5 +10,8 @@ CAT CONSOLE.
 curl https://github.com/curl/curl  
 json https://github.com/nlohmann/json
 
+# notes 
+only work on x64 | c++ 17| release mode.
+
 # deplantis#6315
 if you have any code suggestions / code improvements contact me on discord then
